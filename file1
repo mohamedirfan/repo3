@@ -1,0 +1,7 @@
+sudo yum install java-1.8.0-openjdk
+
+sudo alternatives --config java
+export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk.x86_64
+
+tar xvf kafka_aws.tar.gz
+sudo mv kafka /usr/local/
